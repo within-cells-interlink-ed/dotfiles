@@ -59,3 +59,5 @@ picom --config $HOME/.xmonad/scripts/picom.conf &
 #run dropbox &
 #run insync start &
 #run ckb-next -b &
+
+/opt/styli/styli.sh -d /home/neo/Pictures/MyWall
