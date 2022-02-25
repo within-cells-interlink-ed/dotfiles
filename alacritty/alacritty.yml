@@ -166,30 +166,35 @@ font:
 #draw_bold_text_with_bright_colors: false
 # Colors (ArcoLinux)
 colors:
-  name: Atelierseaside (dark)
-  author: Chris Kempson
+  # Default colors
   primary:
-    background: "#131513"
-    foreground: "#8ca68c"
+    background: '#292C3E'
+    foreground: '#EBEBEB'
+
+  # Cursor colors
   cursor:
-    text: "#131513"
-    cursor: "#8ca68c"
+    text: '#FF261E'
+    cursor: '#FF261E'
+
+  # Normal colors
   normal:
-    black: "#131513"
-    red: "#e6193c"
-    green: "#29a329"
-    yellow: "#c3c322"
-    blue: "#3d62f5"
-    magenta: "#ad2bee"
-    cyan: "#1999b3"
-    white: "#8ca68c"
+    black: '#0d0d0d'
+    red: '#FF301B'
+    green: '#A0E521'
+    yellow: '#FFC620'
+    blue: '#1BA6FA'
+    magenta: '#8763B8'
+    cyan: '#21DEEF'
+    white: '#EBEBEB'
+
+  # Bright colors
   bright:
-    black: "#687d68"
-    red: "#e6193c"
-    green: "#29a329"
-    yellow: "#c3c322"
-    blue: "#3d62f5"
-    magenta: "#ad2bee"
-    cyan: "#1999b3"
-    white: "#f0fff0"
-theme: Atelierseaside.dark
+    black: '#6D7070'
+    red: '#FF4352'
+    green: '#B8E466'
+    yellow: '#FFD750'
+    blue: '#1BA6FA'
+    magenta: '#A578EA'
+    cyan: '#73FBF1'
+    white: '#FEFEF8'
+theme: Argonaut
